@@ -1,4 +1,3 @@
-
 body {
     background-color: #f4ecf7;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -8,20 +7,16 @@ body {
     line-height: 1.6;
 }
 
-
 section {
     margin: 30px;
     padding: 20px;
-    background-color: #fdfdff;
-    border-radius: 12px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fdfdff;       
+    box-shadow: none;       
 }
-
 
 p, li, h1, h2 {
     color: inherit;
 }
-
 
 .myName h1 {
     text-align: center;
@@ -49,7 +44,6 @@ img {
     border-radius: 50%;
 }
 
-
 p span {
     font-size: x-large;
     font-weight: bold;
@@ -66,7 +60,6 @@ span:hover {
     font-size: 1em;
 }
 
-
 a[href$=".pk"]:hover {
     background-color: rgb(133, 119, 255);
     color: white;
@@ -74,17 +67,14 @@ a[href$=".pk"]:hover {
     border-radius: 4px;
 }
 
-
 h2 {
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-
 p {
     overflow-wrap: break-word;
 }
-
 
 @media (max-width: 700px) {
     body {
