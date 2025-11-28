@@ -1,0 +1,69 @@
+.job-form {
+    background-color: #fff9c4;
+    color: rgba(255, 0, 0, 0.8);
+    border: 2px solid black;
+    border-radius: 12px;
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px 40px;
+    font-family: Arial, sans-serif;
+}
+
+.job-form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.job-form input,
+.job-form select,
+.job-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 6px;
+    border: 1px solid black;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/* RED background for invalid fields */
+.invalid {
+    background-color: #ffb3b3 !important;
+}
+
+.radio-group {
+    margin-top: 6px;
+}
+
+.radio-group label {
+    margin-right: 15px;
+    font-weight: normal;
+}
+
+button {
+    background-color: #d6a8eb;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #b06ddf;
+}
+
+.form-buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+a button {
+    margin: 20px auto;
+    display: block;
+}
